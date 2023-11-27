@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.active{
+    display: flex;
+    padding: 14px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--peach-95, #F5F3F0);
+}
+
+.nav-container{
+    background-color: var(--color-peach92, #EEEBE5);
+    display: flex;
+    width: 100%;
+    padding: 20px 162px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-peach85, #E1DBD1);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: var(--color-purple50, #5700FF);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar-contanier {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-category{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: var(--color-grey20, #333);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.navlink:not(.active):hover{
+    color: var(--color-purple50);
+}
+
+.navbar-button {
+    text-decoration: none;
+    display: flex;
+    padding: 16px 18px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #5700FF;
+}
+
+.nav-image {
+    width: 24px;
+    height: 24px;
+}
+.nbutton {
+    color: var(--peach-99, #FDFDFC);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}

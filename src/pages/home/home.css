@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+ /* hero select start */
+.hero {
+    display: flex;
+    width: 100%;
+    padding: 3px 162px;
+    align-items: center;
+}
+
+.hero-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    flex: 1 0 0;
+    
+}
+
+.hero-sub-container {
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.htexts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.hello-container {
+    display: flex;
+    padding: 10px 18px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 13px;
+    background: var(--color-peach95, #F5F3F0);
+}
+
+.hello {
+    color: var(--color-grey30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 42px */
+}
+
+.greeting {
+    align-self: stretch;
+    color: var(--grey-10, #1A1A1A);
+    font-family: Manrope;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 87px */
+}
+.hero-text {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-button1 {
+    text-decoration: none;
+    display: flex;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 8px;border-radius: 8px;
+    background: var(--color-purple50, #5700FF);
+}
+
+.hero-button2 {
+    text-decoration: none;
+    display: flex;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--color-peach96, #F7F6F3);
+}
+
+.hbutton {
+    color: var(--color-grey10, #1A1A1A);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.hero-rate {
+    display: flex;
+    padding: 40px 50px;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    border-radius: 12px 0px 0px 12px;
+    background: var(--color-peach96, #F7F6F3);
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.rate-num {
+    align-self: stretch;
+    color: var(--color-grey20, #333);
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+}
+
+.plus {
+    color: var(--color-purple50, #5700FF);
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.cate {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.profile {
+    display: flex;
+    width: 815px;
+    height: 977px;
+    padding: 0px px  ;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+/* hero select stop */
+
+
+/* skill section start */
+.skill {
+    display: flex;
+    padding: 107px 152px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.s-first {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.skill-header {
+    display: flex;
+    padding: 0px 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.skill-head {
+    align-self: stretch;
+    color: var(--color-grey20, #333);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 57px */
+}
+
+.skill-texts {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.skill-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.skill-sub-container1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.skill-card {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    background: var(--color-peach96, #F7F6F3);
+}
+
+.skill-icons {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--color-purple50, #5700FF);
+    box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.50) inset;
+}
+
+.stext {
+    align-self: stretch;
+    color: var(--grey-20, #333);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+}
+
+.skill-card-text {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+/* skill section stop */
+.benefits {
+    display: flex;
+    padding: 107px 152px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.benefits-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.benefits-header {
+    display: flex;
+    padding: 0px 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.benefits-head {
+    align-self: stretch;
+    color: var(--color-grey20, #333);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+}
+
+.btext {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.benefits-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.benefits-details-sub {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.benefits-card1 {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    background: var(--color-peach96, #F7F6F3);
+}
+
+.benefit-text-head {
+    align-self: stretch;
+    color: var(--grey-20, #333);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+}
+
+.benefits-text-details {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.benefits-card2 {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    background: var(--peach-96, #F7F6F3);
+}
+
+
+
+/* benefits section start */
