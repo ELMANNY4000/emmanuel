@@ -54,13 +54,16 @@
 
 .greeting {
     align-self: stretch;
-    color: var(--grey-10, #1A1A1A);
+    color: var(--color-grey10, #1A1A1A);
     font-family: Manrope;
     font-size: 58px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 87px */
+    
 }
+
+
 .hero-text {
     align-self: stretch;
     color: var(--color-grey30, #4D4D4D);
@@ -250,7 +253,7 @@
 
 .stext {
     align-self: stretch;
-    color: var(--grey-20, #333);
+    color: var(--color-grey20, #333);
     text-align: center;
     font-family: Manrope;
     font-size: 20px;
@@ -348,7 +351,7 @@
 
 .benefit-text-head {
     align-self: stretch;
-    color: var(--grey-20, #333);
+    color: var(--color-grey20, #333);
     font-family: Manrope;
     font-size: 24px;
     font-style: normal;
@@ -376,7 +379,82 @@
     border-radius: 12px;
     background: var(--peach-96, #F7F6F3);
 }
+/* benefits section stop */
 
 
+/* works section start */
+.works {
+    display: flex;
+    width: 100%;
+    padding: 107px 152px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
-/* benefits section start */
+.workLarge-container {
+    display: flex;
+    width: 1596px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.work-header {
+    display: flex;
+    padding: 0px 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.work-head {
+    align-self: stretch;
+    color: var(--color-grey20, #333);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+}
+
+.headp {
+    align-self: stretch;
+    color: var(--color-grey30, #4D4D4D);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.work-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.work-button {
+    text-decoration: none;
+    display: flex;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--color-purple50, #5700FF);
+}
+.wbutton{
+    color: var(--color-peach99, #FDFDFC);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+/* works section stop */

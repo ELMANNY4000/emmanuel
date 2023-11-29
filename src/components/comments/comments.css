@@ -1,0 +1,18 @@
+.comment-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.commentCard {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    background: var(--color-peach96, #F7F6F3);
+}

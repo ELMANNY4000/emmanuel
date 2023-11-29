@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 
 const Home = () => {
   return (
@@ -13,9 +14,7 @@ const Home = () => {
                 <p className="hello">Hello There 🤗</p>
               </span>
               <h2 className="greeting">
-                Emmanuel Ulodo Welcome’s
-                <br />
-                You!
+                Emmanuel Ulodo Welcome’s You!
               </h2>
               <p className="hero-text">
                 I am a passionate and experienced web developer, dedicated to
@@ -71,7 +70,7 @@ const Home = () => {
           <div className="skill-header">
             <h2 className="skill-head">Creative Skills</h2>
             <p className="skill-texts">
-              As a web designer, I possess a diverse set of skills and expertise
+              As a web developer, I possess a diverse set of skills and expertise
               to bring your web design visions to life
             </p>
           </div>
@@ -159,7 +158,7 @@ const Home = () => {
           <div className="benefits-header">
             <h2 className="benefits-head">Benefits</h2>
             <p className="btext">
-              By choosing my web design service, you'll enjoy the following
+              By choosing my web development service, you'll enjoy the following
               benefits
             </p>
           </div>
@@ -199,14 +198,16 @@ const Home = () => {
             <div className="benefits-details-sub">
               <div className="benefits-card2">
                 <header className="benefit-text-head">
-                 User-Centric Approach for Optimal Experience
+                  User-Centric Approach for Optimal Experience
                 </header>
                 <p className="benefits-text-details">
-                I prioritize user experience (UX) design, placing your visitors at the 
-                center of the design process. By conducting in-depth research and employing user 
-                testing techniques, I ensure that your website is intuitive, easy to navigate, and 
-                seamlessly guides users towards their goals. The result is a 
-                satisfying user journey that increases engagement and conversions.
+                  I prioritize user experience (UX) design, placing your
+                  visitors at the center of the design process. By conducting
+                  in-depth research and employing user testing techniques, I
+                  ensure that your website is intuitive, easy to navigate, and
+                  seamlessly guides users towards their goals. The result is a
+                  satisfying user journey that increases engagement and
+                  conversions.
                 </p>
               </div>
 
@@ -215,30 +216,54 @@ const Home = () => {
                   Mobile-Friendly Designs for Broad Accessibilit
                 </header>
                 <p className="benefits-text-details">
-                  In today's mobile-dominated landscape, having a responsive website is crucial. I specialize in creating 
-                  mobile-friendly designs that adapt flawlessly across different devices and screen sizes. 
-                  Your website will look and perform beautifully, whether accessed from a desktop, smartphone, 
-                  or tablet, ensuring that you reach and engage your audience effectively.
+                  I prioritize user experience (UX) design, placing your
+                  visitors at the center of the design process. By conducting
+                  in-depth research and employing user testing techniques, I
+                  ensure that your website is intuitive, easy to navigate, and
+                  seamlessly guides users towards their goals. The result is a
+                  satisfying user journey that increases engagement and
+                  conversions.
                 </p>
               </div>
 
               <div className="benefits-card2">
                 <header className="benefit-text-head">
-                 Expertise in Cutting-Edge Technologies
+                  Expertise in Cutting-Edge Technologies
                 </header>
                 <p className="benefits-text-details">
-                With a strong command of HTML, CSS, JavaScript, and other front-end technologies, 
-                I possess the technical skills to bring your design concepts to life. From seamless 
-                animations to interactive elements, I leverage the latest web technologies to enhance
-                 user engagement and create a dynamic user experience.
+                  I prioritize user experience (UX) design, placing your
+                  visitors at the center of the design process. By conducting
+                  in-depth research and employing user testing techniques, I
+                  ensure that your website is intuitive, easy to navigate, and
+                  seamlessly guides users towards their goals. The result is a
+                  satisfying user journey that increases engagement and
+                  conversions.
                 </p>
               </div>
-
-
             </div>
           </div>
         </div>
       </div>
+
+      <div className="works">
+        <div className="workLarge-container">
+          <div className="work-header">
+            <h2 className="work-head">My Works</h2>
+            <p className="headp">
+              Here's what some of my satisfied clients 
+              have to say about my work</p>
+          </div>
+          <div className="work-project">
+            <ProjectCard/>
+            <Link to="portfolio" className="work-button">
+                <span className="wbutton">View Portfolio</span>
+                <img src="./images/arrow-witch.png" className="work-images" alt="" />
+            </Link>
+          </div>
+        </div>
+      </div>
+       
+       
     </>
   );
 };
