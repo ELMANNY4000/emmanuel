@@ -7,7 +7,7 @@
 }
 
 body{
-       background: var(--color-softPeach92) ;
+       background: var(--color-Peach92) ;
        scroll-behavior: smooth;
 }
 
@@ -27,14 +27,14 @@ body{
   --color-purple99: #FCFAFF;
 
          /* Soft Peach Shades */
-  --color-softPeach85: #E1DBD1;
-  --color-softPeach90: #EBE7E0;
-  --color-softPeach92: #EEEBE5;
-  --color-softPeach95: #F5F3F0;
-  --color-softPeach96: #F7F6F3;
-  --color-softPeach97: #F9F8F6;
-  --color-softPeach98: #FBFAF9;
-  --color-softPeach99: #FDFDFC;
+  --color-Peach85: #E1DBD1;
+  --color-Peach90: #EBE7E0;
+  --color-Peach92: #EEEBE5;
+  --color-Peach95: #F5F3F0;
+  --color-Peach96: #F7F6F3;
+  --color-Peach97: #F9F8F6;
+  --color-Peach98: #FBFAF9;
+  --color-Peach99: #FDFDFC;
 
          /* Grey Shades */
   --color-grey10: #191919;

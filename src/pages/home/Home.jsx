@@ -2,6 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
 import ProjectCard from "../../components/projectCard/ProjectCard";
+import Carosul from "../../components/carosol/Carosul";
+import Comments from "../../components/comments/Comments";
+import Accordion from "../../components/Accordion/Accordion";
+
+
+
+
+const sections = [
+  { header: 'Section 1', content: 'Content for Section 1' },
+  { header: 'Section 2', content: 'Content for Section 2' },
+  // Add more sections as needed
+];
+
 
 const Home = () => {
   return (
@@ -263,6 +276,25 @@ const Home = () => {
         </div>
       </div>
        
+       <div className="client">
+        <div className="clientContainer">
+          <div className="client-Header">
+          <h2 className="client-head">What My Clients say About Me</h2>
+          <p className="client-text">Here's what some of my satisfied clients have to say about my work</p>
+          </div>
+          <div className="client-next">
+            <Carosul/>
+            <Comments/>
+          </div>
+        </div>
+       </div>
+
+       <div className="addition">
+        <div>
+          <h1>React Accordion Example</h1>
+          <Accordion sections={sections} />
+        </div>
+       </div>
        
     </>
   );

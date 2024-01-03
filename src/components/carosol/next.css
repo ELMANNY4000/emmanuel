@@ -1,0 +1,33 @@
+.carosul {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.carosulNun {
+    flex: 1 0 0;
+    color: var(--color-grey30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+}
+
+.nextCarosul {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.next {
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--color-peach85, #E1DBD1);
+    background: var(--color-peach98, #FBFAF9);
+}

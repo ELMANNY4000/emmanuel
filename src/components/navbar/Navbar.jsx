@@ -22,7 +22,7 @@ const Navbar = () => {
               Contact Me
             </NavLink>
           </div>
-          <Link className="navbar-button">
+          <Link to="contact" className="navbar-button">
             <img src="./images/phone.png" className="nav-images" alt="" />
             <span className="nbutton">Book a Call</span>
           </Link>
