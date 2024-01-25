@@ -3,20 +3,11 @@ import { Link } from "react-router-dom";
 import "./home.css";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import Carosul from "../../components/carosol/Carosul";
-import Comments from "../../components/comments/Comments";
+import Comments from "../../components/comments/Comments"
 import Accordion from "../../components/Accordion/Accordion";
 
-
-
-
-const sections = [
-  { header: 'Section 1', content: 'Content for Section 1' },
-  { header: 'Section 2', content: 'Content for Section 2' },
-  // Add more sections as needed
-];
-
-
 const Home = () => {
+
   return (
     <>
       <div className="hero">
@@ -289,13 +280,9 @@ const Home = () => {
         </div>
        </div>
 
-       <div className="addition">
-        <div>
-          <h1>React Accordion Example</h1>
-          <Accordion sections={sections} />
+        <div className="accordion">
+          <Accordion/>
         </div>
-       </div>
-       
     </>
   );
 };

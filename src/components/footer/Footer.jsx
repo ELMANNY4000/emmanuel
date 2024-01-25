@@ -48,14 +48,14 @@ const Footer = () => {
 
           <div className="talks">
             <img className="foot-img" src="./images/phone1.png" alt="" />
-            <span className="talk-text">07013674703</span>
+            <span className="talk-text">09030319295</span>
           </div>
 
           <div className="f-line"></div>
 
           <div className="talks">
             <img className="foot-img" src="./images/location.png" alt="" />
-            <span className="talk-text">Somewhere in the World</span>
+            <span className="talk-text">Lagos,Nigeria</span>
           </div>
         </div>
         <p className="copy">

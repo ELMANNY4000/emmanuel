@@ -56,21 +56,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      <div className="about">
-        <div className="Milestones">
-          <div className="milestones-header">
-            <span className="timeline-head">Milestones of My Career</span>
-            <p className="sub-header">
-            Lorem ipsum dolor sit amet consectetur. 
-            Nisl ut neque tortor nulla 
-            felis nunc. Sit ac sed sed pulvinar sit 
-            purus morbi. Elit amet sed velit auctor 
-            urna vitae nam ultricies massa.
-            </p>
-          </div>
-        </div>
-      </div>
     </>
   );
 };
