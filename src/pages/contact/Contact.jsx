@@ -88,27 +88,41 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="large-form">
-            <div class="form-floating mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-              />
-              <label for="floatingInput">Email address</label>
+          <form action="" className="form">
+            <div className="from-group">
+              <div className="input-section">
+                <input type="text" placeholder="First Name"/>
+                <input type="text" placeholder="Last Name"/>
+              </div>
+              <div className="input-section">
+                <input type="email" placeholder="Email"/>
+                <input type="tel" placeholder="Phone Number"/>
+              </div>
             </div>
-            <div class="form-floating">
-              <input
-                type="password"
-                class="form-control"
-                id="floatingPassword"
-                placeholder="Password"
-              />
-              <label for="floatingPassword">Password</label>
+
+            <div className="conneting">
+              <h3 className="connect-text">
+                Why are you contacting us?
+              </h3>
+              <div className="connect-section">
+                <div className="group-connect">
+                <div className="check-box">
+                    <input type="checkbox" name="Web Development " id="developer"/>
+                    <label htmlFor="developer" className='check'>Web Development</label>
+                </div>
+                <div className="check-box">
+                    <input type="checkbox" name="Web Development " id="developer"/>
+                    <label htmlFor="developer" className='check'>Web Development</label>
+                </div>
+
+                </div>
+              </div>
             </div>
-          </div>
+          </form>
+
         </div>
+
+
       </div>
     </>
   );

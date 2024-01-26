@@ -138,7 +138,7 @@
 
 .text-two {
     align-self: stretch;
-    color: var(--color-Grey20, #333);
+    color: var(--color-grey20, #333);
     font-family: Manrope;
     font-size: 16px;
     font-style: normal;
@@ -167,7 +167,7 @@
 
 .second-text {
     align-self: stretch;
-    color: var(--color-Grey20, #333);
+    color: var(--color-grey20, #333);
     font-family: Manrope;
     font-size: 16px;
     font-style: normal;
@@ -184,8 +184,7 @@
     background: var(--color-Peach96, #F7F6F3);
 }
 
-
-.large-form {
+.form {
     display: flex;
     padding: 50px;
     flex-direction: column;
@@ -197,6 +196,113 @@
     background: var(--color-Peach96, #F7F6F3);
 }
 
-.placeholder {
-    
+.from-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
 }
+
+.input-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+input{
+    display: flex;
+    padding: 20px 24px;
+    align-items: center;
+    gap: 77px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    border: 1px solid var(--color-Peach90, #EBE7E0);
+    background: var(--color-Peach95, #F5F3F0);
+    text-transform: initial;
+} 
+
+::placeholder {
+    flex: 1 0 0;
+    color: var(--color-grey30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    text-transform: capitalize;
+}
+
+.conneting {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid var(--color-Peach-90, #EBE7E0);
+    background: var(--color-Peach95, #F5F3F0);
+}
+
+.connect-text {
+    align-self: stretch;
+    color: var(--color-grey20, #333);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+
+.connect-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.group-connect {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.check-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex: .1;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid var(--color-Peach90, #EBE7E0);
+    background: var(--color-Peach92, #EEEBE5);
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2196F3;
+}
+
+.check {
+    flex: 1 0 0;
+    color: var(--color-grey-30, #4D4D4D);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+
+
+
