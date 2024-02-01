@@ -55,7 +55,8 @@ const Accordion = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      How long does it typically take to complete a web design project?
+                      How long does it typically take to complete a web design
+                      project?
                     </button>
                   </h2>
                   <div
@@ -64,21 +65,14 @@ const Accordion = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                    Absolutely! I have experience working with 
-                    clients from all around the world. Through 
-                    effective communication channels such as email, 
-                    video calls, and project management tools, I ensure 
-                    seamless collaboration regardless 
-                    of geographical location.
+                      Overall, a web development project can take anywhere from
+                      2 to 6 months or more to complete, depending on the
+                      project's specific requirements and complexities.
+                      Effective project management, communication, and
+                      collaboration among team members are essential to ensure
+                      the project stays on track and is delivered on time.
                     </div>
                   </div>
-
-
-     
-
-
-
-
                 </div>
                 <br />
 
@@ -101,24 +95,20 @@ const Accordion = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                    Absolutely! I have experience working with clients from 
-                    all around the world. Through effective 
-                    communication channels such as 
-                    email, video calls, and project 
-                    management tools, I 
-                    ensure seamless collaboration 
-                    regardless of geographical location.
+                      Our team of experienced professionals specializes in
+                      providing proactive and reactive maintenance solutions
+                      tailored to your specific needs. Whether you're a small
+                      business owner, a growing startup, or a large corporation,
+                      we have the expertise to keep your website running
+                      smoothly. Our website maintenance services include:{" "}
+                      <strong>Security Updates</strong>,
+                      <strong>Content Updates</strong>,{" "}
+                      <strong>Performance Optimization</strong> &&
+                      <strong>Analytics and Reporting</strong>
                     </div>
                   </div>
-
-
-     
-
-
-
-
-                </div><br />
-
+                </div>
+                <br />
 
                 <div class="accordion-item">
                   <h2 class="accordion-header">
@@ -139,21 +129,14 @@ const Accordion = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                    Absolutely! I have experience working with clients from all 
-                    around the world. Through effective 
-                    communication channels such as 
-                    email, video calls, and project management tools, I 
-                    ensure seamless collaboration 
-                    regardless of geographical location.
+                      By implementing these SEO best practices, you can improve
+                      your website's visibility, attract more organic traffic,
+                      and ultimately achieve better rankings in search engine
+                      results. If you need further assistance or personalized
+                      advice, consider consulting with an experienced SEO
+                      professional or agency.
                     </div>
                   </div>
-
-
-     
-
-
-
-
                 </div>
                 <br />
                 <div class="accordion-item">
@@ -166,7 +149,8 @@ const Accordion = () => {
                       aria-expanded="false"
                       aria-controls="collapseFive"
                     >
-                      Can you integrate third-party tools or platforms into my website?
+                      Can you integrate third-party tools or platforms into my
+                      website?
                     </button>
                   </h2>
                   <div
@@ -175,24 +159,16 @@ const Accordion = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                    Absolutely! I have experience working with 
-                    clients from all around the world. 
-                    Through effective communication 
-                    channels such as email, video calls, 
-                    and project management tools, 
-                    I ensure seamless collaboration 
-                    regardless of geographical location.
+                      Yes, we offer integration services for third-party tools
+                      and platforms to enhance the functionality of your
+                      website. Whether you need to integrate payment gateways,
+                      analytics tools, social media plugins, or other services,
+                      we can help seamlessly integrate them into your website,
+                      providing additional features and capabilities to meet
+                      your specific needs and requirements.
                     </div>
                   </div>
-
-
-     
-
-
-
-
                 </div>
-
               </div>
             </div>
 

@@ -22,10 +22,10 @@ const Navbar = () => {
               Contact Me
             </NavLink>
           </div>
-          <Link to="contact" className="navbar-button">
-            <img src="./images/phone.png" className="nav-images" alt="" />
-            <span className="nbutton">Book a Call</span>
-          </Link>
+          <button to="" className="navbar-button">
+            <img src="./images/download.png" className="nav-images" alt="" />
+            <span className="nbutton">Download CV</span>
+          </button>
         </div>
       </div>
     </>

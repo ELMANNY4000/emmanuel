@@ -1,6 +1,7 @@
 import React from 'react'
 import "./contact.css";
 import { Link } from 'react-router-dom';
+import Accordion from '../../components/Accordion/Accordion';
 
 const Contact = () => {
   return (
@@ -91,38 +92,100 @@ const Contact = () => {
           <form action="" className="form">
             <div className="from-group">
               <div className="input-section">
-                <input type="text" placeholder="First Name"/>
-                <input type="text" placeholder="Last Name"/>
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
               </div>
               <div className="input-section">
-                <input type="email" placeholder="Email"/>
-                <input type="tel" placeholder="Phone Number"/>
+                <input type="email" placeholder="Email" />
+                <input type="tel" placeholder="Phone Number" />
               </div>
             </div>
 
-            <div className="conneting">
-              <h3 className="connect-text">
-                Why are you contacting us?
-              </h3>
-              <div className="connect-section">
-                <div className="group-connect">
-                <div className="check-box">
-                    <input type="checkbox" name="Web Development " id="developer"/>
-                    <label htmlFor="developer" className='check'>Web Development</label>
-                </div>
-                <div className="check-box">
-                    <input type="checkbox" name="Web Development " id="developer"/>
-                    <label htmlFor="developer" className='check'>Web Development</label>
+            <div className="service">
+              <h3 className="text-service">Why are you contacting us?</h3>
+
+              <div className="services-container">
+                <div className="service-group">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
                 </div>
 
+                <div className="service-group">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>
           </form>
-
         </div>
 
-
+        <div className="accordion">
+          <Accordion />
+        </div>
       </div>
     </>
   );
