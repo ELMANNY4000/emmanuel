@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -22,10 +22,10 @@ const Navbar = () => {
               Contact Me
             </NavLink>
           </div>
-          <button to="" className="navbar-button">
+          <a href="./images/emmanuel.pdf" download="Emmanuel-CV" className="navbar-button">
             <img src="./images/download.png" className="nav-images" alt="" />
             <span className="nbutton">Download CV</span>
-          </button>
+          </a>
         </div>
       </div>
     </>
