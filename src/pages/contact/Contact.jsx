@@ -114,7 +114,7 @@ const Contact = () => {
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                      Web Design
                     </label>
                   </div>
 
@@ -126,7 +126,7 @@ const Contact = () => {
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                      Mobile App Design
                     </label>
                   </div>
                   <div class="form-check">
@@ -137,7 +137,7 @@ const Contact = () => {
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                     Collaboration
                     </label>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ const Contact = () => {
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                      Web Development
                     </label>
                   </div>
 
@@ -163,7 +163,7 @@ const Contact = () => {
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                     Mobile App Development
                     </label>
                   </div>
                   <div class="form-check">
@@ -174,7 +174,7 @@ const Contact = () => {
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
+                      Others
                     </label>
                   </div>
                 </div>
