@@ -274,15 +274,16 @@ input{
 }
 
 
-textarea {
-    display: flex;
-    padding: 40px 40px;
-    align-items: center;
+.messagebox {
+    width: 838px;
+    height: 204;
     gap: 77px;
+    flex: 1 0 0;
+    outline: none;
+    padding: 40px 40px;
     border-radius: 6px;
     border: 1px solid var(--color-Peach90, #EBE7E0);
     background: var(--color-Peach95, #F5F3F0);
-    text-transform: initial;
 }
 
 .submit-button {
@@ -290,6 +291,8 @@ textarea {
     padding: 18px 44px;
     align-items: center;
     border-radius: 8px;
+    cursor: pointer;
+    outline: none;
     background: var(--color-Purple50, #5700FF);
     color: var(--color-Peach99, #FDFDFC);
     font-family: Manrope;
