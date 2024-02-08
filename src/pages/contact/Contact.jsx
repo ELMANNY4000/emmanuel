@@ -180,6 +180,8 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message here..."></textarea>
+            <button type="submit" className="submit-button">Send</button>
           </form>
         </div>
 

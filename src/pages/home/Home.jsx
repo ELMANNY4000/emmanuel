@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import "./home.css";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 
-import Comments from "../../components/comments/Comments"
+import Comments from "../../components/comments/Comments";
 import Accordion from "../../components/Accordion/Accordion";
 
 const Home = () => {
-
   return (
     <>
       <div className="hero">
@@ -19,10 +18,10 @@ const Home = () => {
               </span>
               <h2 className="greeting">Emmanuel Ulodo Welcome’s You!</h2>
               <p className="hero-text">
-                I am a passionate and experienced web developer, dedicated to
-                creating visually stunning and <br /> highly functional
-                websites. Explore my portfolio to see the power of effective
-                design in action
+                I am a passionate and experienced web developer and UI/UX
+                designer, dedicated to brcreating visually stunning <br /> and highly
+                functional websites. Explore my portfolio to see the power of
+                effective design in action
               </p>
             </div>
             <div className="hero-buttons">
@@ -282,7 +281,6 @@ const Home = () => {
             </p>
           </div>
           <div className="client-next">
-            
             <Comments />
           </div>
         </div>
