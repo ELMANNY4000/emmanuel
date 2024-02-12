@@ -275,8 +275,8 @@ input{
 
 
 .messagebox {
-    width: 838px;
-    height: 204;
+    width: 708px;
+    height: 158px;
     gap: 77px;
     flex: 1 0 0;
     outline: none;
@@ -298,9 +298,14 @@ input{
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 1000;
     line-height: 150%; /* 27px */
     
+}
+
+.form-check-input {
+    width: 28px;
+    height: 28px;
 }
 
 
