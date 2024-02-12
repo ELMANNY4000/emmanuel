@@ -19,9 +19,9 @@ const Home = () => {
               <h2 className="greeting">Emmanuel Ulodo Welcome’s You!</h2>
               <p className="hero-text">
                 I am a passionate and experienced web developer and UI/UX
-                designer, dedicated to brcreating visually stunning <br /> and highly
+                designer, dedicated to brcreating visually stunning and highly
                 functional websites. Explore my portfolio to see the power of
-                effective design in action
+                effective design in <br />action
               </p>
             </div>
             <div className="hero-buttons">
